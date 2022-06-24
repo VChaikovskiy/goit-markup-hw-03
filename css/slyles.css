@@ -1,0 +1,216 @@
+:root {
+    --color-choice:#2F303A;
+    --color-main:#FFFFFF;
+    --color-blue:#2196F3;
+    --color-footer:#2F303A;
+    --fotter-list:#FFFFFF;
+    --header-list:#212121;
+    --color-text:#757575;
+    --color-logo:#000000;
+    --color-fotter-contact:rgba(255, 255, 255, 0.6);
+    --color-button:#F5F4FA;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--color-text);
+    background-color: var(--color-main);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+
+}
+.choice {
+    background-color: var(--color-choice);
+}
+.header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    color: var(--color-main);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--color-logo);
+}
+.color-logo {
+    color: var(--color-blue);
+    text-decoration: none;
+}
+.logo-fotter {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--color-main);
+}
+.color-logo-fotter {
+    color: var(--color-blue);
+    text-decoration: none;
+}
+.navigation {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.list {
+    color: var(--header-list);
+    text-decoration: none;
+}
+.list:hover {
+    color: var(--color-blue);
+    }
+.list:focus {
+    color: var(--color-main);
+}
+.current ,.list:hover ,.list:focus {
+    color: var(--color-blue);
+}
+
+.header-list {
+    color: var(--color-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+.header-list:hover {
+    color: var(--color-blue);
+}
+.header-list:focus {
+    color: var(--fotter-list);
+}
+
+.action {
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: var(--header-list);
+    letter-spacing: 0.03em;
+}
+.description {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-text);
+    letter-spacing: 0.03em;
+}
+.about {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    color: var(--header-list);
+    letter-spacing: 0.03em;
+}
+.team {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        color: var(--header-list);
+        letter-spacing: 0.03em;
+}
+.person {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--header-list);
+    letter-spacing: 0.03em;
+}
+.speciality {
+    font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 1.2;
+        color: var(--color-text);
+        letter-spacing: 0.03em;
+}
+.product {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--header-list);
+    letter-spacing: 0.06em;
+}
+.type {
+    font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 1.9;
+        color: var(--color-text);
+        letter-spacing: 0.03em;
+}
+.button {
+    color: var(--color-logo);
+    background-color: var(--color-button);
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+.btn {
+    background-color: var(--color-blue);
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: var(--color-main);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+
+}
+.filter {
+    color: var(--color-logo);
+    font-family: Roboto, sans-serif;
+}
+.button:hover {
+background-color: var(--color-blue);
+color: var(--fotter-list);
+}
+.button:focus {
+color: var(--fotter-list);
+background-color: var(--color-blue);
+}
+.filter .button:active {
+color: var(--fotter-list);
+background-color: var(--color-blue);
+}
+.fotter {
+    color: var(--fotter-list);
+    background-color: var(--color-footer);
+}
+.contact-list {
+    color: var(--color-fotter-contact);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+.contact-list:hover { 
+    color: var(--color-blue);
+}
+.contact-list:focus {
+color: var(--fotter-list);
+}
+.map {
+    color: var(--color-main);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
