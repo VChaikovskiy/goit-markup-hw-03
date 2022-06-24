@@ -89,7 +89,7 @@ body {
     color: var(--color-blue);
 }
 .header-list:focus {
-    color: var(--fotter-list);
+    color: var(--color-blue);
 }
 
 .action {
