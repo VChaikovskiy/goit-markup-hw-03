@@ -90,14 +90,14 @@ ul {
             padding-left: 15px;
             padding-right: 15px;
 }
-.choice {
+.choice-section {
     display: block;
     text-align: center;
 }
-.choice {
+.choice-section {
     background-color: var(--color-choice);
-    margin-bottom: 30px;
-    margin-top: 200px;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 .main-list {
     display: flex;
@@ -131,6 +131,37 @@ ul {
 .img:nth-child(3n) {
     margin-right: 0;
 }
+
+.about-section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        }
+
+.team-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.title-team {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+
+ .title-team > .img-team {
+    outline: 1px solid teal;
+    flex-basis: calc(100%/4 - 30px);
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+.team-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+        
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -221,6 +252,9 @@ ul {
         line-height: 1.2;
         color: var(--header-list);
         letter-spacing: 0.03em;
+        display: block;
+        text-align: center;
+        margin: auto;
 }
 .person {
     font-weight: 500;
@@ -228,6 +262,7 @@ ul {
     line-height: 1.2;
     color: var(--header-list);
     letter-spacing: 0.03em;
+    padding-top: 30px;
 }
 .speciality {
     font-family: 'Roboto', sans-serif;
@@ -235,6 +270,7 @@ ul {
         line-height: 1.2;
         color: var(--color-text);
         letter-spacing: 0.03em;
+        padding-top: 10px;
 }
 .product {
     font-family: 'Roboto', sans-serif;
