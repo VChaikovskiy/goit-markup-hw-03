@@ -19,6 +19,68 @@ body {
     letter-spacing: 0.03em;
 
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+}
+/*--.section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}--*/
+/*--Навигация--*/
+.nav {
+    border-bottom: 2px;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+    margin: 0;
+    margin-left: 93px;
+    padding: 0;
+    align-items: center;
+    }
+.head-nav {
+    display: flex;
+    margin: 0;
+}
+.head-nav .logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.head-nav .item + .item {
+    margin-left: 50px;
+}
+.contacts .item + .item {
+    margin-left: 50px;
+}
+.contacts {
+  display: flex;
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+  padding-left: 15px;
+  padding-right: 15px
+}
+/*--Секции--*/
+.section {
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .choice {
     background-color: var(--color-choice);
 }
@@ -91,7 +153,6 @@ body {
 .header-list:focus {
     color: var(--color-blue);
 }
-
 .action {
     font-size: 14px;
     line-height: 1.2;

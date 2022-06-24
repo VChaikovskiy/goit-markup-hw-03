@@ -7,6 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/slyles.css" />
+    <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
@@ -17,35 +22,36 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/slyles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="css/slyles.css" />
     <title>Портфолио</title>
   </head>
-  <body>
-    <header>
-      <nav>
-        <a class="logo" href="portfolio.html">
-          <span class="color-logo">Web</span>Studio</a
-        >
-        <ul class="navigation">
-          <li><a class="list" href="./index.html">Студия</a></li>
-          <li><a class="list current" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="list" href="#">Контакти</a></li>
+  <body class="container body-container">
+    <header class="nav">
+      <div class="container nav-container">
+        <nav class="head-nav">
+          <a class="logo" href="portfolio.html">
+            <span class="color-logo">Web</span>Studio
+          </a>
+          <ul class="navigation">
+            <li class="item"><a class="list" href="./index.html">Студия</a></li>
+            <li class="item">
+              <a class="list current" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="item"><a class="list" href="#">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts">
+          <li class="item">
+            <a class="header-list" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="header-list" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <a class="header-list" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="header-list" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <section>
