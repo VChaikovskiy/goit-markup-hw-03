@@ -68,9 +68,9 @@
           <button class="btn" type="button">Заказать услугу</button>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <h2>Особенности</h2>
+      <section class="section features-section">
+        <div class="container features-container">
+          <h2 class="visually-hidden">Особенности</h2>
           <ul class="main-list">
             <li class="item-list">
               <h3 class="action">Внимание к деталям</h3>
@@ -104,7 +104,7 @@
         </div>
       </section>
       <section class="section about-section">
-        <div class="container">
+        <div class="container about-container">
           <h2 class="about">Чем мы занимаемся</h2>
           <ul class="img-box">
             <li class="img">
@@ -139,72 +139,102 @@
           <h2 class="team">Наша команда</h2>
           <ul class="title-team">
             <li class="img-team">
-              <img
-                src="images/img1.jpg"
-                alt="Игорь Демьяненко Product Designer"
-                width="270"
-                height="260"
-              />
-              <h3 class="person">Игорь Демьяненко</h3>
-              <p class="speciality">Product Designer</p>
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    src="images/img1.jpg"
+                    alt="Игорь Демьяненко Product Designer"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="person">Игорь Демьяненко</h3>
+                  <p class="speciality">Product Designer</p>
+                </div>
+              </article>
             </li>
             <li class="img-team">
-              <img
-                src="images/img2.jpg"
-                alt="Ольга Репина Frontend Developer"
-                width="270"
-                height="260"
-              />
-              <h3 class="person">Ольга Репина</h3>
-              <p class="speciality">Frontend Developer</p>
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    src="images/img2.jpg"
+                    alt="Ольга Репина Frontend Developer"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="person">Ольга Репина</h3>
+                  <p class="speciality">Frontend Developer</p>
+                </div>
+              </article>
             </li>
             <li class="img-team">
-              <img
-                src="images/img3.jpg"
-                alt="Николай Тарасов Marketing"
-                width="270"
-                height="260"
-              />
-              <h3 class="person">Николай Тарасов</h3>
-              <p class="speciality">Marketing</p>
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    src="images/img3.jpg"
+                    alt="Николай Тарасов Marketing"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="person">Николай Тарасов</h3>
+                  <p class="speciality">Marketing</p>
+                </div>
+              </article>
             </li>
             <li class="img-team">
-              <img
-                src="images/img4.jpg"
-                alt="Михаил Ермаков UI Designer"
-                width="270"
-                height="260"
-              />
-              <h3 class="person">Михаил Ермаков</h3>
-              <p class="speciality">UI Designer</p>
+              <article class="card">
+                <div class="card-thumb">
+                  <img
+                    src="images/img4.jpg"
+                    alt="Михаил Ермаков UI Designer"
+                    width="270"
+                    height="260"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="person">Михаил Ермаков</h3>
+                  <p class="speciality">UI Designer</p>
+                </div>
+              </article>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="fotter">
-      <a class="logo-fotter" href="index.html">
-        <span class="color-logo-fotter">Web</span>Studio</a
-      >
-      <address>
-        <ul>
-          <li>
-            <a class="contact-list" href="#"
-              ><span class="map">г. Киев, пр-т Леси Украинки, 26</span></a
-            >
-          </li>
-          <li>
-            <a class="contact-list" href="mailto:info@devstudio.com "
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contact-list" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="logo-thumb">
+          <a class="logo-fotter" href="index.html">
+            <span class="color-logo-fotter">Web</span>Studio</a
+          >
+        </div>
+        <address>
+          <div class="address-footer">
+            <ul>
+              <li>
+                <a class="contact-list" href="#"
+                  ><span class="map">г. Киев, пр-т Леси Украинки, 26</span></a
+                >
+              </li>
+              <li>
+                <a class="contact-list" href="mailto:info@devstudio.com "
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="contact-list" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </div>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
