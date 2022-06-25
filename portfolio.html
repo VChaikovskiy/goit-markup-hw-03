@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/slyles.css" />
     <title>Портфолио</title>
   </head>
-  <body class="container body-container">
+  <body>
     <header class="nav">
       <div class="container nav-container">
         <nav class="head-nav">
@@ -54,107 +54,165 @@
       </div>
     </header>
     <main>
-      <section>
+      <section class="section filter-section">
         <h1 class="visually-hidden">Фильтр</h1>
-        <ul class="filter">
-          <li><button class="button" type="button">Все</button></li>
-          <li><button class="button" type="button">Веб-сайты</button></li>
-          <li><button class="button" type="button">Приложения</button></li>
-          <li><button class="button" type="button">Дизайн</button></li>
-          <li><button class="button" type="button">Маркетинг</button></li>
-        </ul>
-        <ul>
-          <li>
-            <img
-              src="images/img5.jpg"
-              alt="Пример техноякоря"
-              width="370"
-              height="294"
-            />
-            <h2 class="product">Технокряк</h2>
-            <p class="type">Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="images/img6.jpg"
-              alt="Постер New Orlean vs Golden Star"
-              width="370"
-              height="294"
-            />
-            <h2 class="product">Постер New Orlean vs Golden Star</h2>
-            <p class="type">Дизайн</p>
-          </li>
-          <li>
-            <img
-              src="images/img7.jpg"
-              alt="Ресторан Seafood"
-              width="370"
-              height="294"
-            />
-            <h2 class="product">Ресторан Seafood</h2>
-            <p class="type">Приложение</p>
-          </li>
-          <li>
-            <img
-              src="images/img8.jpg"
-              alt="Проект Prime"
-              width="370"
-              height="294"
-            />
-            <h2 class="product">Проект Prime</h2>
-            <p class="type">Маркетинг</p>
-          </li>
-          <li>
-            <img
-              src="images/img9.jpg"
-              alt="Проект Boxes"
-              width="370"
-              height="294"
-            />
-            <h2 class="product">Проект Boxes</h2>
-            <p class="type">Приложение</p>
-          </li>
-          <li>
-            <img
-              src="images/img10.jpg"
-              alt="Inspiration has no Borders"
-              width="370"
-              height="294"
-            />
-            <h2 class="product">Inspiration has no Borders</h2>
-            <p class="type">Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="images/img11.jpg"
-              alt="Издание Limited Edition"
-              width="370"
-              height="294"
-            />
-            <h2 class="product">Издание Limited Edition</h2>
-            <p class="type">Дизайн</p>
-          </li>
-          <li>
-            <img
-              src="images/img12.jpg"
-              alt="Проект LAB"
-              width="370"
-              height="294"
-            />
-            <h2 class="product">Проект LAB</h2>
-            <p class="type">Маркетинг</p>
-          </li>
-          <li>
-            <img
-              src="images/img13.jpg"
-              alt="Growing Business"
-              width="370"
-              height="294"
-            />
-            <h2 class="product">Growing Business</h2>
-            <p class="type">Приложение</p>
-          </li>
-        </ul>
+        <div class="container filter-container">
+          <div class="flex-filter">
+            <ul class="filter">
+              <li><button class="button" type="button">Все</button></li>
+              <li><button class="button" type="button">Веб-сайты</button></li>
+              <li><button class="button" type="button">Приложения</button></li>
+              <li><button class="button" type="button">Дизайн</button></li>
+              <li><button class="button" type="button">Маркетинг</button></li>
+            </ul>
+          </div>
+          <ul class="app-list">
+            <li class="item-app">
+              <article class="app">
+                <div class="app-thumb">
+                  <img
+                    src="images/img5.jpg"
+                    alt="Пример техноякоря"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="app-content">
+                  <h2 class="product">Технокряк</h2>
+                  <p class="type">Веб-сайт</p>
+                </div>
+              </article>
+            </li>
+            <li class="item-app">
+              <article class="app">
+                <div class="app-thumb">
+                  <img
+                    src="images/img6.jpg"
+                    alt="Постер New Orlean vs Golden Star"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="app-content">
+                  <h2 class="product">Постер New Orlean vs Golden Star</h2>
+                  <p class="type">Дизайн</p>
+                </div>
+              </article>
+            </li>
+            <li class="item-app">
+              <article class="app">
+                <div class="app-thumb">
+                  <img
+                    src="images/img7.jpg"
+                    alt="Ресторан Seafood"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="app-content">
+                  <h2 class="product">Ресторан Seafood</h2>
+                  <p class="type">Приложение</p>
+                </div>
+              </article>
+            </li>
+            <li class="item-app">
+              <article class="app">
+                <div class="app-thumb">
+                  <img
+                    src="images/img8.jpg"
+                    alt="Проект Prime"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="app-content">
+                  <h2 class="product">Проект Prime</h2>
+                  <p class="type">Маркетинг</p>
+                </div>
+              </article>
+            </li>
+            <li class="item-app">
+              <article class="app">
+                <div class="app-thumb">
+                  <img
+                    src="images/img9.jpg"
+                    alt="Проект Boxes"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="app-content">
+                  <h2 class="product">Проект Boxes</h2>
+                  <p class="type">Приложение</p>
+                </div>
+              </article>
+            </li>
+            <li class="item-app">
+              <article class="app">
+                <div class="app-thumb">
+                  <img
+                    src="images/img10.jpg"
+                    alt="Inspiration has no Borders"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="app-content">
+                  <h2 class="product">Inspiration has no Borders</h2>
+                  <p class="type">Веб-сайт</p>
+                </div>
+              </article>
+            </li>
+            <li class="item-app">
+              <article class="app">
+                <div class="app-thumb">
+                  <img
+                    src="images/img11.jpg"
+                    alt="Издание Limited Edition"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="app-content">
+                  <h2 class="product">Издание Limited Edition</h2>
+                  <p class="type">Дизайн</p>
+                </div>
+              </article>
+            </li>
+            <li class="item-app">
+              <article class="app">
+                <div class="app-thumb">
+                  <img
+                    src="images/img12.jpg"
+                    alt="Проект LAB"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="app-content">
+                  <h2 class="product">Проект LAB</h2>
+                  <p class="type">Маркетинг</p>
+                </div>
+              </article>
+            </li>
+            <li class="item-app">
+              <article class="app">
+                <div class="app-thumb">
+                  <img
+                    src="images/img13.jpg"
+                    alt="Growing Business"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="app-content">
+                  <h2 class="product">Growing Business</h2>
+                  <p class="type">Приложение</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">

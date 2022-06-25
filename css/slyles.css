@@ -390,3 +390,27 @@ color: var(--fotter-list);
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
+
+/*Портфолио*/
+
+.filter {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    margin-left: 8px;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--box-radius);
+}
+
+.app-list {
+display: flex;
+flex-wrap: wrap;
+margin-left: calc(-1 * var(--cardset-gap));
+}
+.app-list > .item-app {
+    flex-basis: calc(100%/3 - var(--cardset-gap));
+    margin-left: var(--cardset-gap);
+    margin-top: 50px;
+    background-color: #FFFFFF;
+}
