@@ -14,6 +14,9 @@
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     --box-radius:0px 0px 4px 4px;
+    --button-radius:4px 4px 4px 4px;
+    --border-color:#EEEEEE;
+    --border-color-nav:#ECECEC;
 }
 
 body {
@@ -71,11 +74,14 @@ address {
 }--*/
 /*--Навигация--*/
 .nav {
-    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--border-color-nav);
+    border-width: 1px;
 }
 .nav-container {
     display: flex;
     align-items: center;
+
 }
 .navigation {
     display: flex;
@@ -265,6 +271,8 @@ address {
     line-height: 1.7;
     text-decoration: none;
     letter-spacing: 0.03em;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-list:hover {
     color: var(--color-blue);
@@ -358,6 +366,9 @@ address {
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.06em;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--button-radius);
+    padding: 10px 32px;
 }
 .filter {
     color: var(--color-logo);
@@ -410,7 +421,8 @@ color: var(--fotter-list);
 .button {
     margin-left: 8px;
     box-shadow: var(--box-shadow);
-    border-radius: var(--box-radius);
+    border-radius: var(--button-radius);
+    padding: 6px 22px;
 }
 
 .app-list {
@@ -423,4 +435,18 @@ margin-left: calc(-1 * var(--cardset-gap));
     margin-left: var(--cardset-gap);
     margin-top: 50px;
     background-color: #FFFFFF;
+}
+
+.app-content {
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    border-right-style: solid;
+    border-right-color: var(--border-color);
+    border-bottom-style: solid;
+    border-bottom-color: var(--border-color);
+    border-left-style: solid;
+    border-left-color: var(--border-color);
+    border-width: 1px;
 }
