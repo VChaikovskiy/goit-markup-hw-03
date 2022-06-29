@@ -186,13 +186,16 @@ address {
     flex-wrap: wrap;
     margin-left: calc( -1 * var(--cardset-gap));
     text-align: center;
+    margin-top: 50px;
+   
 }
 
  .title-team > .img-team {
     flex-basis: calc(100%/4 - var(--cardset-gap));
     margin-left: var(--cardset-gap);
-    margin-top: 50px;
     background-color: var(--color-main);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--box-radius);
 }
 
 
@@ -203,8 +206,8 @@ address {
 }
 .card-content {
     padding-top: 30px;
-    box-shadow: var(--box-shadow);
-    border-radius: var(--box-radius);
+    padding-bottom: 30px;
+    
 }
 
 
@@ -212,9 +215,10 @@ address {
     /*padding-top: 60px;*/
 }
 .address-footer {
-    padding-top: 20px;
+    margin-top: 20px;
 }
-.address-list {
+
+.address-list:not(:last-child) {
     margin-bottom: 9px;
 }
 
@@ -252,6 +256,7 @@ address {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
+    color: var(--heder-list);
 }
 
 .list {
@@ -289,7 +294,7 @@ address {
     font-size: 14px;
     line-height: 1.2;
     text-transform: uppercase;
-    color: var(--header-list);
+    color: var(--heder-list);
     letter-spacing: 0.03em;
 }
 .description {
@@ -297,17 +302,17 @@ address {
     line-height: 1.7;
     color: var(--color-text);
     letter-spacing: 0.03em;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 .about {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
-    color: var(--header-list);
+    color: var(--heder-list);
     letter-spacing: 0.03em;
     display: block;
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .about-section {
@@ -318,7 +323,7 @@ address {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.2;
-        color: var(--header-list);
+        color: var(--heder-list);
         letter-spacing: 0.03em;
         display: block;
         text-align: center;
@@ -328,7 +333,7 @@ address {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-    color: var(--header-list);
+    color: var(--heder-list);
     letter-spacing: 0.03em;
 }
 .speciality {
@@ -337,15 +342,15 @@ address {
         line-height: 1.2;
         color: var(--color-text);
         letter-spacing: 0.03em;
-        padding-top: 10px;
-        padding-bottom: 30px;
+        margin-top: 10px;
+    
 }
 .product {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    color: var(--header-list);
+    color: var(--heder-list);
     letter-spacing: 0.06em;
     margin-bottom: 4px;
 }
@@ -391,10 +396,12 @@ address {
 .button:hover {
 background-color: var(--color-blue);
 color: var(--fotter-list);
+box-shadow: var(--box-shadow);
 }
 .button:focus {
 color: var(--fotter-list);
 background-color: var(--color-blue);
+box-shadow: var(--box-shadow);
 }
 .filter .button:active {
 color: var(--fotter-list);
@@ -437,7 +444,7 @@ color: var(--fotter-list);
 }
 .button {
     margin-left: 8px;
-    box-shadow: var(--box-shadow);
+    /*box-shadow: var(--box-shadow);*/
     border-radius: var(--button-radius);
     padding: 6px 22px;
 }
